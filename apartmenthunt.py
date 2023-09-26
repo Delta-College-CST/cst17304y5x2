@@ -18,4 +18,4 @@ else:
         else:
             print("Rejected - Inadequate work history with credit score")
     else:
-        print("Accepted - Inadequate income and credit score")
+        print("Rejected - Inadequate income and credit score")
