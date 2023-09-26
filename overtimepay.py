@@ -12,7 +12,7 @@ payRate     = float(input("Enter pay rate: "))
 if hoursWorked <= BASE_HOURS:
     pay = hoursWorked * payRate
 else:
-    pay = hoursWorked * BASE_HOURS + (hoursWorked - BASE_HOURS) * 1.5 * payRate
+    pay = payRate * BASE_HOURS + (hoursWorked - BASE_HOURS) * 1.5 * payRate
 
 # Report payroll summary
 print ("PAYROLL")
